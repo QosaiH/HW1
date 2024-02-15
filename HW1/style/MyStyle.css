@@ -33,23 +33,23 @@ section#casabamelon {
   background-color: rgb(200, 235, 104);
 }
 img.MelonsC {
-  size: 100px;
+  height: 300px;
   width: 300px;
 }
 img.watermelonC {
-  size: 100px;
-  width: 580px;
+  height: 300px;
+  width: 300px;
 }
 img.cantaloupec {
-  size: 100px;
+  height: 300px;
   width: 300px;
 }
 img.honeydewc {
-  size: 100px;
+  height: 300px;
   width: 300px;
 }
 img.casabamelonc {
-  size: 100px;
+  height: 300px;
   width: 300px;
 }
 section.cards {
@@ -77,7 +77,7 @@ section.cards img {
 }
 footer {
   display: list-item;
-  width: 10cm;
+  width: 16cm;
   height: 7cm;
   background-image: url("back.webp");
   background-color: transparent;
@@ -95,4 +95,7 @@ button {
 }
 ul {
   list-style: none;
+}
+a {
+  text-decoration: none;
 }
