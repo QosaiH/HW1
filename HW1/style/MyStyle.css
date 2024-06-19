@@ -1,6 +1,7 @@
 html {
   background-color: bisque;
 }
+
 header h1 {
   text-align: center;
   color: rgb(255, 136, 0);
@@ -10,6 +11,7 @@ header h1 {
   border-width: 1cm;
   border-radius: 1cm;
 }
+
 section.hero {
   display: flex;
   flex-direction: row;
@@ -17,41 +19,36 @@ section.hero {
   margin-top: 10px;
   margin-left: -16px;
 }
+
 section#Melons {
   background-color: rgb(13, 255, 118);
 }
+
 section#watermelon {
   background-color: rgb(234, 61, 61);
 }
+
 section#cantaloupe {
   background-color: rgb(252, 157, 5);
 }
+
 section#honeydew {
   background-color: rgb(72, 255, 0);
 }
+
 section#casabamelon {
   background-color: rgb(200, 235, 104);
 }
-img.MelonsC {
-  height: 300px;
-  width: 300px;
-}
-img.watermelonC {
-  height: 300px;
-  width: 300px;
-}
-img.cantaloupec {
-  height: 300px;
-  width: 300px;
-}
-img.honeydewc {
-  height: 300px;
-  width: 300px;
-}
+
+img.MelonsC,
+img.watermelonC,
+img.cantaloupec,
+img.honeydewc,
 img.casabamelonc {
   height: 300px;
   width: 300px;
 }
+
 section.cards {
   display: flex;
   flex-direction: row;
@@ -60,42 +57,53 @@ section.cards {
   margin-top: 1cm;
   gap: 10px;
 }
+
 h2#hcards {
   align-items: left;
   justify-content: left;
 }
+
 .card {
   width: 200px;
   height: 320px;
   margin-top: 1.5cm;
 }
+
 section.cards img {
   width: 100%;
   height: 150px;
   max-height: 180px;
   margin-bottom: 1cm;
 }
+
 footer {
   display: list-item;
-  width: 16cm;
-  height: 7cm;
+  width: 100%;
+  padding: 20px;
   background-image: url("back.webp");
   background-color: transparent;
   font-size: 26px;
   color: #002fff;
+  text-align: center;
 }
+
 button {
   text-transform: uppercase;
   background-color: #ff6600;
   line-height: 30px;
   color: #ffffff;
-  display: list-item;
-  width: 11cm;
+  display: block;
+  width: 100%;
   font-size: 22px;
+  margin-bottom: 10px;
 }
+
 ul {
   list-style: none;
+  padding: 0;
 }
+
 a {
   text-decoration: none;
+  color: inherit;
 }
